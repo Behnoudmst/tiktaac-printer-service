@@ -13,7 +13,6 @@ const allowedOrigins = [
   "https://tiktaac.com",
 ];
 // log styles 
-const bold = '\x1b[1m';
 const green = '\x1b[32m';
 const yellow = '\x1b[33m';
 const red = '\x1b[31m';
@@ -122,6 +121,6 @@ console.log(
 
 // Start the server
 app.listen(port, () => {
-  console.log(`${green}Server started on http://localhost:${port}`);
+  console.log(`${yellow}Server started on http://localhost:${port}`);
   console.log(`${yellow }🔍 Checking printer connection ... \n`);
 });
