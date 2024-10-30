@@ -1,0 +1,22 @@
+{
+  "name": "tiktaac-print-server",
+  "version": "1.0.0",
+  "bin": "index.js",
+  "main": "index.js",
+  "pkg": {
+    "scripts": "dist/*.js",
+    "assets": "img/**/*",
+    "outputPath": "dist"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Behnoud Mostafaie",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "node-thermal-printer": "^4.4.3",
+    "nodemon": "^3.1.7"
+  }
+}
